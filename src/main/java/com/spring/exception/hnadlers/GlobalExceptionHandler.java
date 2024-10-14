@@ -11,7 +11,8 @@ import com.spring.exceptions.ResourceNotFoundException;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
-	
+	//Here we handle a specific Exception
+
 	@ExceptionHandler(value = ResourceNotFoundException.class)
 	public Map<String, Object> handleRNFException(ResourceNotFoundException ex){
 		HashMap<String, Object> msg = new HashMap<>();
