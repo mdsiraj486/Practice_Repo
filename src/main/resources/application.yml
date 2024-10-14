@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: 1-Crud-Operation-with-Security-3.0
+#datasource config    
+  datasource:
+    username: root
+    password: Delhi786
+    url: jdbc:mysql://localhost:3306/securitydb
+   
+#JPA Config    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+      
